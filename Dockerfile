@@ -1,11 +1,11 @@
 FROM alpine:3.7
 MAINTAINER Artem Starostenko
 
-ARG GCLOUD_VERSION=183.0.0
+ARG GCLOUD_VERSION=235.0.0
 # https://aur.archlinux.org/packages/kubectl-bin/
-ARG KUBECTL_VERSION=v1.9.1
+ARG KUBECTL_VERSION=v1.13.3
 # https://github.com/kubernetes/helm/releases
-ARG HELM_VERSION=v2.7.2
+ARG HELM_VERSION=v2.13.0
 
 # install dependencies
 RUN apk add --no-cache ca-certificates tar wget openssl python bash
