@@ -9,5 +9,6 @@ This Alpine image has the following tools installed:
 * `gcloud`
 * `kubectl`
 * `helm`
+* `envsubst`
 
 these are required to deploy to k8s using Helm.
