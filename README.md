@@ -10,5 +10,6 @@ This Alpine image has the following tools installed:
 * `kubectl`
 * `helm`
 * `envsubst`
+* `make`
 
 these are required to deploy to k8s using Helm.
